@@ -2,8 +2,8 @@ FROM ttbb/base:jdk11
 
 WORKDIR /opt/sh
 
-ARG version=2.9.2
-ARG download=2.9.2-bin
+ARG version=2.10.0
+ARG download=2.10.0-bin
 
 RUN wget -q https://archive.apache.org/dist/pulsar/pulsar-$version/apache-pulsar-$download.tar.gz  && \
 mkdir -p /opt/sh/pulsar && \
